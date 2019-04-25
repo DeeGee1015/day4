@@ -18,13 +18,19 @@ body {
   background-image: url("https://www.metallica.com/on/demandware.static/-/Sites-Metallica-Library/default/dwb6d5ba9e/images/homepage/home-hero.jpg");
   width: 100%;
   height: 100vh;
+  /* background-size: cover; */
 }
 
 .register-form {
   border: 1px solid #333;
   background: rgba(69, 69, 69, 0.66);
   padding: 5% 5%;
-  width: 33%;
+  /* width: 33%; */
+}
+
+.register-form input[type='text']{
+  width: 50%;
+  padding: 1% 3% 1% 0.5%;
 }
 
 .register-form input[type='submit'] {
